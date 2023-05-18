@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Shopping Cart Project</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <nav class="nav container">
+        <div class="nav__hamburger-menu">
+          <div class="nav__bar"></div>
+          <div class="nav__bar"></div>
+          <div class="nav__bar"></div>
+        </div>
+        <span class="nav__text">Welcome to Our Shop</span>
+        <span class="nav__icon">
+          <i class="fas fa-cart-plus"></i>
+          <span class="nav__cart-counter">0</span>
+        </span>
+      </nav>
+    </header>
+    <main class="main-products">
+      <!-- Products Section -->
+      <section class="section-products container">
+        <h2 class="section-products__title">Our Products</h2>
+        <div class="container-products">
+          <!-- <div class="product-card">
+            <div class="product-card__image">
+              <picture>
+                <source
+                  type="image/webp"
+                  srcset="/assets/images/product-1.webp"
+                />
+                <source
+                  type="image/jpeg"
+                  srcset="/assets/images/product-1.jpeg"
+                />
+                <img
+                  src="/assets/images/product-1.jpeg"
+                  alt="product card 01"
+                />
+              </picture>
+            </div>
+            <div class="product-card__specs">
+              <span class="product-card__price"> 14.99 </span>
+              <span class="product-card__name"> $ saheb panel bed </span>
+            </div>
+            <div class="product-card__add">
+              <button type="button" class="product-card__btn">
+                <span class="product-card__btn-icon">
+                  <i class="fas fa-cart-plus"></i>
+                </span>
+                <span class="product-card__btn-text"> add to cart </span>
+              </button>
+            </div>
+          </div> -->
+        </div>
+      </section>
+      <!-- Cart Section -->
+      <div class="cart">
+        <div class="cart__heading">
+          <h3>Your Cart</h3>
+        </div>
+        <div class="cart__products-wrapper">
+          <!-- <div class="cart__product-card">
+            <div class="cart__product-image-wrapper">
+              <img
+                class="cart__product-image"
+                src="/assets/images/product-1.jpeg"
+                alt="product card 01"
+              />
+            </div>
+            <div class="cart__product-specs">
+              <span class="cart__title">ABC</span>
+              <span class="cart__price">15.55 $</span>
+            </div>
+            <div class="cart__product-quantity">
+              <span class="cart__increment-icon">
+                <i class="fas fa-chevron-up"></i>
+              </span>
+              <span class="cart__quantity">1</span>
+              <span class="cart__decrement-icon">
+                <i class="fas fa-chevron-down"></i>
+              </span>
+            </div>
+            <div class="cart__product-delete">
+              <span class="cart__remove-icon">
+                <i class="fas fa-trash"></i>
+              </span>
+            </div>
+          </div> -->
+        </div>
+        <div class="cart__footer">
+          <span class="cart__price"
+            >Total Price :
+            <span class="cart__price-numerical-value">0</span>$</span
+          >
+          <button class="cart__clear-btn">Clear Cart</button>
+          <button class="cart__confirm-btn">Confirm</button>
+        </div>
+      </div>
+      <!-- Backdrop -->
+      <div class="backdrop"></div>
+    </main>
+    <!-- JS -->
+    <script src="./js/Main.js" type="module"></script>
+  </body>
+</html>
